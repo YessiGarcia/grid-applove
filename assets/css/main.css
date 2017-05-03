@@ -1,76 +1,3 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-
-[class*="col-"]{
-	min-height: 7px;
-	padding: 12px;
-	float: left;
-}
-
-.container{
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-.row:before, .row:after{
-	content: " ";
-	display: table;
-
-}
-
-.col-1{
-	width: 8.333%;
-}
-
-.col-2{
-	width: 16.666%;
-}
-
-.col-3{
-	width: 24.999%;
-}
-
-.col-4{
-	width: 33.333%;
-}
-
-.col-5{
-	width: 41.666%
-}
-
-.col-6{
-	width: 50%;
-}
-
-.col-7{
-	width: 58.333%;
-}
-
-.col-8{
-	width: 66.666%;
-}
-
-.col-9{
-	width: 74.999%;
-}
-
-.col-10{
-	width: 83.333%;
-}
-
-.col-11{
-	width: 91.666%
-}
-
-.col-12{
-	width: 100%;
-}
-
 nav{
 	position:fixed;
 	width: 100%;
@@ -147,8 +74,8 @@ nav a{
 }
 
 .services h4{
-	margin-top: 20px;
-	margin-left: 100px;
+	margin-top: 10%;
+	margin-left: 25%;
 }
 
 .services h5{
@@ -164,7 +91,8 @@ nav a{
 }
 
 .imagen-gde img{
-	height: 1100px;
+	height: 1000px;
+	margin-left: 6%;
 }
 
 footer section{
@@ -182,9 +110,37 @@ footer p{
 }
 
 .imagenes img{
-	height: 250px;
+	height: 200px;
+	margin-left: 20%;
 }
 
 .imagenes p{
 	text-align: center;
+}
+
+#modal{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#close {
+  color: #f1f1f1 ;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
