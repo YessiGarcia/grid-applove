@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+
 [class*="col-"]{
 	min-height: 7px;
 	padding: 12px;
@@ -70,13 +71,24 @@
 	width: 100%;
 }
 
+nav{
+	position:fixed;
+	width: 100%;
+	background-color: white;
+	height: 60px;
+}
+
 .logo{
-	height: 50px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 nav a{
 	text-decoration: none;
 	color: black;
+	vertical-align: sub;
 }
 
 .home{
@@ -143,3 +155,36 @@ nav a{
 	text-align: center;
 }
 
+.title{
+	font-size: 35px;
+}
+
+.text-work p{
+	text-align: center;
+}
+
+.imagen-gde img{
+	height: 1100px;
+}
+
+footer section{
+	background-color: black;
+	height: 50px;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+}
+
+.uno, .dos, .tres{
+	height: 200px;
+}
+
+.imagenes img{
+	height: 250px;
+}
+
+.imagenes p{
+	text-align: center;
+}
